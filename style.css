@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td.content {
+    max-width: 5em;
+    max-height: 1em;
+    text-overflow: ellipsis;
+}
